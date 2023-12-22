@@ -19,5 +19,5 @@ index.use(router.routes());
 index.use(router.allowedMethods());
 index.use(staticResource(path.join(__dirname,'public')))
 index.use(router.routes());
-index.listen(3000);
-console.log('服务器创建成功，启动的端口是3000');
+index.listen(3008);
+console.log('服务器创建成功，启动的端口是3008');
